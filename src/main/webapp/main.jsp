@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>오목게임</title>
+	<title>오목게임</title>
 	<style>
 		body{
 			align-items: center;
