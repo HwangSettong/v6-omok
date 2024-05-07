@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<style>
+	body{
+			align-items: center;
+			width:810px;
+			height: 100vh;
+		    background: no-repeat center;
+		    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/omok-bg.png);
+		    background-size: cover;
+		    margin: auto;
+		   	display: flex;
+			align-items: center;
+		}
+	
+</style>
+<script type="text/javascript">
+window.onload = getCookieValue();
+
+function getCookieValue(){
+	if(document.cookie.startsWith("loginCookie=")){
+    	console.log(document.cookie);
+        return location.href="/Omok/autoLogin";
+    }
+}
+
+function fnLogin(){
+    var frmLogin = document.frmLogin;
+    var id = frmLogin.id.value;
+    var pwd = frmLogin.pwd.value;
+
+    if(id.length == 0 || id == ""){
+        alert("아이디를 입력해 주세요.");
+    }else if(pwd.length = 0 || pwd == ""){
+        alert("비밀번호를 입력해 주세요.")
+    }else{
+        frmLogin.method ="post";
+        frmLogin.action="login.do";
+        frmLogin.submit();
+    }
+}
+function fnJoin(){
+    frmLogin.method="get";
+    frmLogin.action="join.do" //회원가입 주소 넣기
+    frmLogin.submit();
+}
+</script>
+</head>
+<body>
+	<form name="frmLogin">
+		<table border="1">
+			<tr>
+				<td>아이디</td>
+				<td><input type='text' name= "id"></td>
+			</tr>
+			<tr>
+				<td>비밀번호</td>
+				<td><input type= "password" name= "pwd" ></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type= "button" value= "회원가입" onclick="fnJoin()"> 
+					<input type= "button" value= "로그인" onclick="fnLogin()">
+					<!--<input type= "button" value= "쿠키" onclick="getCookieValue()">-->
+				</td>
+			</tr>
+			
+		</table>
+
+        
+		
+        
+		
+		
+	</form>
+</body>
+</html>
