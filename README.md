@@ -28,6 +28,9 @@ src/main/java
       ├── RegisterController
       └── WinLoseController
 ```
+## ➡️ ERD
+![Untitled](https://github.com/HwangSettong/v6-omok/assets/105219462/b158f318-bdb2-46cb-94ef-a4ca18ecf406)
+
 ## 👨🏻‍💻 Role & Contribution
 
 **Frontend**
