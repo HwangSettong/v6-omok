@@ -29,7 +29,7 @@ src/main/java
       └── WinLoseController
 ```
 ## ➡️ ERD
-![Untitled](https://github.com/HwangSettong/v6-omok/assets/105219462/b158f318-bdb2-46cb-94ef-a4ca18ecf406)
+![Untitled](https://github.com/HwangSettong/v6-omok/assets/105219462/b25b21fd-2828-43c6-bc74-711171bb8a96)
 
 ## 👨🏻‍💻 Role & Contribution
 
