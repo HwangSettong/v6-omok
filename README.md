@@ -49,5 +49,5 @@ src/main/java
 - 황세현([HwangSettong](https://github.com/HwangSettong))
 - 정현진([nijnuyhj](https://github.com/nijnuyhj))
 - 백승준([mint723](https://github.com/mint723))
-- 이봉욱[kiv9908](https://github.com/kiv9908)   
+- 이봉욱([kiv9908](https://github.com/kiv9908))   
 - 서석환([shseo232](https://github.com/shseo232))
