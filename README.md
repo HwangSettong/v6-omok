@@ -7,7 +7,7 @@
 ### 4. 오목 게임
 ### 5. 승패 랭킹 조회
 ## 🔧 Stack
-- Language: JavaScript
+- Language: Java
 - Database : MySql
 ## 📂 Project Structure
 
